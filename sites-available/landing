@@ -1,0 +1,13 @@
+server {
+    listen 80;
+    listen [::]:80;
+
+    server_name patsiomkinhomelab.com;
+
+    root /var/www/landing;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
