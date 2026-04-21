@@ -2,7 +2,7 @@
 
 This repository contains my personal homelab setup built on Ubuntu Server using Docker and Nginx.
 
-It provides a centralized landing page and multiple self-hosted services доступные через subdomains.
+It provides a centralized landing page and multiple self-hosted services available through subdomains.
 
 ---
 
